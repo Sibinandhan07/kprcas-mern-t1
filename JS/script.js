@@ -289,7 +289,11 @@
 // console.log(sum)
 
 var username = {
-    name:"sibi"
+    name:"sibi",
+    dept:"ct",
+    skills:{
+        programming:["java","js","c"]
+    }
 }
 var user = {
     ...username,
